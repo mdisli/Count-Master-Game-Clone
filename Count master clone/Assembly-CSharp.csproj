@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\EnemyArmy.cs" />
      <Compile Include="Assets\Scripts\EnemySoldier.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Level Creating.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\_MK\MKToon\MKToonMaterialHelper.cs" />

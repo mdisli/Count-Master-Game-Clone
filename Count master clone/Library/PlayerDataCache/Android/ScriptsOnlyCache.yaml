@@ -88,47 +88,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 12226}
+      Script: {instanceID: 12236}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 12294}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12328}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12552}
     - Class: 114
-      Script: {instanceID: 12556}
+      Script: {instanceID: 12566}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12760}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12826}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12984}
     - Class: 114
-      Script: {instanceID: 12976}
-    - Class: 114
-      Script: {instanceID: 13114}
-    - Class: 114
-      Script: {instanceID: 13116}
+      Script: {instanceID: 12986}
     - Class: 114
       Script: {instanceID: 13124}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13204}
+      Script: {instanceID: 13134}
     - Class: 114
-      Script: {instanceID: 13216}
+      Script: {instanceID: 13194}
+    - Class: 114
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 13226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -150,6 +150,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
       Script: {instanceID: 0}
     Assets/Scenes/Level-2.unity:
     - Class: 1
@@ -191,43 +193,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 12294}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12328}
     - Class: 114
-      Script: {instanceID: 12434}
+      Script: {instanceID: 12444}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12552}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12760}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12826}
     - Class: 114
-      Script: {instanceID: 12974}
-    - Class: 114
-      Script: {instanceID: 13114}
-    - Class: 114
-      Script: {instanceID: 13116}
+      Script: {instanceID: 12984}
     - Class: 114
       Script: {instanceID: 13124}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13204}
+      Script: {instanceID: 13134}
     - Class: 114
-      Script: {instanceID: 13216}
+      Script: {instanceID: 13194}
+    - Class: 114
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 13226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -249,6 +251,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
       Script: {instanceID: 0}
     Assets/Scenes/Level-3.unity:
     - Class: 1
@@ -290,43 +294,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 12294}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12328}
     - Class: 114
-      Script: {instanceID: 12434}
+      Script: {instanceID: 12444}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12552}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12760}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12826}
     - Class: 114
-      Script: {instanceID: 12974}
-    - Class: 114
-      Script: {instanceID: 13114}
-    - Class: 114
-      Script: {instanceID: 13116}
+      Script: {instanceID: 12984}
     - Class: 114
       Script: {instanceID: 13124}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13204}
+      Script: {instanceID: 13134}
     - Class: 114
-      Script: {instanceID: 13216}
+      Script: {instanceID: 13194}
+    - Class: 114
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 13226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -804,7 +808,7 @@ ScriptsOnlyBuild:
     className: CollisionDetectorForMutiplicator
   - hash:
       serializedVersion: 2
-      Hash: 933a549c4c6a2a516af7ba7eb8e95e1f
+      Hash: ab92a604659d3c9f11dba019e87a1c74
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -903,5 +907,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level-1.unity
   - Assets/Scenes/Level-2.unity
   - Assets/Scenes/Level-3.unity
-  playerPath: C:/Users/Mertcan/Documents/GitHub/Count-Master-Game-Clone/Count master
-    clone/deneme.apk
+  playerPath: C:/Users/Mertcan/Desktop/Count Master Clone.apk

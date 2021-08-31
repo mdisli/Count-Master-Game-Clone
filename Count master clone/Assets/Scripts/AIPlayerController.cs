@@ -27,6 +27,12 @@ public class AIPlayerController : MonoBehaviour
 
     private void OnEnable()
     {
+        // ANIMS
+        if (GameManager.instance.playerState == GameManager.PlayerState.Playing)
+        {
+            animator.SetInteger("Status",1);
+        }
+
         StartCoroutine(EditAgentStatus());
     }
 
@@ -37,32 +43,26 @@ public class AIPlayerController : MonoBehaviour
             agent.SetDestination(target.position);
         }
         
-        // ANIMS
-        if (GameManager.instance.playerState == GameManager.PlayerState.Playing)
+        if (GameManager.instance.playerState == GameManager.PlayerState.Finish)
         {
-            animator.SetTrigger("Run");
-        }
-        else if (GameManager.instance.playerState == GameManager.PlayerState.Finish)
-        {
-            animator.SetTrigger("Finish");
+            animator.SetInteger("Status",3);
         }
         
         CheckFall();
         CheckPlayerStatus();
     }
-
+    
     #endregion
-
+    
     public IEnumerator EditAgentStatus()
     {
         agent.enabled = true;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.5f);
         agent.enabled = false;
     }
 
     void CheckPlayerStatus()
     {
-
         if (GameManager.instance.playerState == GameManager.PlayerState.Playing)
         {
             if (!CheckFall())
@@ -71,7 +71,7 @@ public class AIPlayerController : MonoBehaviour
                 Destroy(GetComponent<Rigidbody>(),2);
             }
         }
-        if (transform.position.y < -1)
+        if (transform.position.y < -.5f)
         {
             gameObject.SetActive(false);
             transform.position = transform.parent.position;
@@ -93,6 +93,7 @@ public class AIPlayerController : MonoBehaviour
         if (other.CompareTag("Ladder"))
         {
             transform.SetParent(null);
+            GameManager.instance.towerPlayerCount--;
         }
         if (other.transform.CompareTag("Obstacle"))
         {

@@ -137,9 +137,6 @@ public class PlayerController : MonoBehaviour
         {
             aiPlayerHolder.GetChild(i).gameObject.SetActive(false);
         }
-        
-        // OPEN NAVMESH
-        StartCoroutine(AIPlayerController.instance.EditAgentStatus());
     }
     
 
@@ -155,7 +152,7 @@ public class PlayerController : MonoBehaviour
             {
                 GameObject obj = aiPlayerHolder.GetChild(i).gameObject;
                 obj.SetActive(true);
-                obj.GetComponent<Animator>().SetTrigger("Run");
+                obj.GetComponent<Animator>().SetInteger("Status",1);
                 obj.GetComponent<NavMeshAgent>().enabled = false;
             }
 
@@ -198,7 +195,8 @@ public class PlayerController : MonoBehaviour
                 break;
             }
         }
-        
+
+        GameManager.instance.towerPlayerCount = playerCount;
         // Open players
         OpenPlayers(playerCount);
         
@@ -263,17 +261,17 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    void SetAnim(string trigger)
+    void SetAnim(string name,int num)
     {
         for (int i = 0; i < aiPlayerHolder.childCount; i++)
         {
-            aiPlayerHolder.GetChild(i).GetComponent<Animator>().SetTrigger(trigger);
+            aiPlayerHolder.GetChild(i).GetComponent<Animator>().SetInteger(name,num);
         }
     }
     IEnumerator Fight(Collider other)
     {
         // ANIM
-        SetAnim("Fight");
+        SetAnim("Status",2);
         
         canMove = false;
         soldierHolder = other.GetComponent<EnemyArmy>().soldierHolder;
@@ -294,7 +292,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         EditPlayerAfterFight();
-        SetAnim("Run");
+        SetAnim("Status",1);
         canMove = true;
 
     }

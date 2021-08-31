@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public PlayerState playerState;
     private Transform towerHolder;
     private int level;
+    public int towerPlayerCount;
 
     public enum PlayerState
     {
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
         //
         CheckGameFailed();
         //
-        StartCoroutine(CheckGameFinish());
+        CheckGameFinish();
     }
 
     #endregion
@@ -68,15 +69,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    IEnumerator CheckGameFinish()
+    void CheckGameFinish()
     {
-        yield return new WaitForSeconds(.5f);
         if (playerState == PlayerState.Tower)
         {
-            if (towerHolder.childCount == 0)
+            if (towerPlayerCount == 0)
             {
                 // GAME FINISH SUCCESSFULLY
-
                 playerState = PlayerState.Finish;
             }
         }
@@ -90,6 +89,7 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         level++;
+        PlayerPrefs.SetInt("Level",level);
 
         if (level > SceneManager.sceneCountInBuildSettings)
         {
