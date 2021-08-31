@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 60
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 61
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,8 +160,8 @@ MonoBehaviour:
     y: 0
     width: 441
     height: 947
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 62
+  controlID: 60
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 63
+  controlID: 61
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,8 +236,8 @@ MonoBehaviour:
     y: 0
     width: 601
     height: 671
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -264,8 +264,8 @@ MonoBehaviour:
     y: 0
     width: 383
     height: 671
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -317,8 +317,8 @@ MonoBehaviour:
     y: 0
     width: 495
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -380,23 +380,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 62310000
       m_LastClickedID: 0
-      m_ExpandedIDs: c0def7fffedef7ff28ccf8ffb43cf9ffd23ff9ff3240f9ff4c40f9ff6c40f9ffa6b0f9ff94b3f9ff18b4f9ff32b4f9fff4b4f9ff5ebbf9ffa2b5faffb2b5faff6cdbfcff9addfcff9a28feffd828feff84cbfeffd8d7feff8a88ffff68fbffff64aa0000f445060010560600bccb0600e4b41100cebc1100d6da110040e61100869533002a6d3a0052ac58001a7e5900b02a820038538200b2738500a2be8800
+      m_ExpandedIDs: 1079ffffb4ecffff4ef7ffff68fbffffbea200006eaa00004ee20000f25101000c68010014a50500bc6206005cb10b00
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Ground Holder
+        m_OriginalName: Ground Holder
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 367970
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -58.407944, y: -31.993134, z: -34.527954}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -58.407944, y: -31.993134, z: -34.527954}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -588,13 +588,13 @@ MonoBehaviour:
     m_GridAxis: 0
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.50324863, y: -0.05185961, z: 0.03040104, w: 0.8622634}
+    m_Target: {x: 0.13316378, y: -0.86678004, z: 0.33105922, w: 0.3489089}
     speed: 2
-    m_Value: {x: 0.5031553, y: -0.05184999, z: 0.030395402, w: 0.86210346}
+    m_Value: {x: 0.13313863, y: -0.8666163, z: 0.33099666, w: 0.34884298}
   m_Size:
-    m_Target: 10
+    m_Target: 214.87006
     speed: 2
-    m_Value: 10
+    m_Value: 214.87006
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -750,21 +750,21 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\Mertcan\Documents\GitHub\Count-Master-Game-Clone\Count
     master clone
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: cc480200
-    m_LastClickedID: 149708
-    m_ExpandedIDs: 00000000cc480200d6480200e6480200eaf2890064f58900b6a28b00bea28b0000ca9a3b
+    scrollPos: {x: 0, y: 117}
+    m_SelectedIDs: 70db0100
+    m_LastClickedID: 121712
+    m_ExpandedIDs: 0000000050db01006adb010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -792,7 +792,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc480200
+    m_ExpandedIDs: 0000000050db0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

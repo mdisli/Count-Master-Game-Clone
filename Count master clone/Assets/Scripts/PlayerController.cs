@@ -272,16 +272,15 @@ public class PlayerController : MonoBehaviour
     }
     IEnumerator Fight(Collider other)
     {
+        // ANIM
+        SetAnim("Fight");
+        
         canMove = false;
         soldierHolder = other.GetComponent<EnemyArmy>().soldierHolder;
         enemyCount = other.GetComponent<EnemyArmy>().soldierCount;
         enemyCountTXT = other.GetComponent<EnemyArmy>().soldierCountTXT;
         int x = enemyCount;
         
-        // ANIM
-        SetAnim("Fight");
-        SetAnim("Fight");
-
         for (int i = 0; i < x; i++)
         {
             if (GameManager.instance.playerState == GameManager.PlayerState.Playing)
